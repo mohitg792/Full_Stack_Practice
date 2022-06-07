@@ -1,8 +1,14 @@
 package full_stack.intro;
 
-import static com.jayway.restassured.RestAssured.*;
+/*import static com.jayway.restassured.RestAssured.*;
+ */
+import static io.restassured.RestAssured.*;
 import static org.junit.Assert.assertEquals;
-import org.junit.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import static org.hamcrest.Matchers.*;
+import static org.hamcrest.core.IsEqual.equalTo;
+
 public class RestAssured_Assertion {
 
 	
